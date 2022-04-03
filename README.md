@@ -6,6 +6,7 @@ peoplenet-deepstream は、DeepStream 上で PeopleNet の AIモデル を動作
     - DeepStream
 - PeopleNet
 - Docker
+- TensorRT Runtime
 
 ## 動作手順
 ### Dockerコンテナの起動
