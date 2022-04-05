@@ -22,7 +22,9 @@ stream-start:
 	xhost +
 	docker exec -it deepstream-peoplenet deepstream-app -c /app/src/deepstream_app_source1_peoplenet.txt
 ```
-
 ## 相互依存関係にあるマイクロサービス  
 本マイクロサービスを実行するために PeopleNet の AIモデルを最適化する手順は、[peoplenet-tao-toolkit](https://github.com/latonaio/peoplenet-tao-toolkit)を参照してください。  
 
+
+## engineファイルについて
+engineファイルである peoplenet.engine は、[peoplenet-tao-toolkit](https://github.com/latonaio/peoplenet-tao-toolkit)と共通のファイルであり、当該レポジトリで作成した engineファイルを、本リポジトリで使用しています。  
