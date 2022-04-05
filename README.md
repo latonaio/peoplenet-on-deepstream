@@ -27,4 +27,4 @@ stream-start:
 
 
 ## engineファイルについて
-engineファイルである peoplenet.engine は、[peoplenet-tao-toolkit](https://github.com/latonaio/peoplenet-tao-toolkit)と共通のファイルであり、当該レポジトリで作成した engineファイルを、本リポジトリで使用しています。  
+engineファイルである peoplenet.engine は、[peoplenet-on-tao-toolkit](https://github.com/latonaio/peoplenet-on-tao-toolkit)と共通のファイルであり、当該レポジトリで作成した engineファイルを、本リポジトリで使用しています。  
