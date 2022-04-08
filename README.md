@@ -1,5 +1,5 @@
-# peoplenet-deepstream
-peoplenet-deepstream は、DeepStream 上で PeopleNet の AIモデル を動作させるマイクロサービスです。  
+# peoplenet-on-deepstream
+peoplenet-on-deepstream は、DeepStream 上で PeopleNet の AIモデル を動作させるマイクロサービスです。  
 
 ## 動作環境
 - NVIDIA 
@@ -7,6 +7,10 @@ peoplenet-deepstream は、DeepStream 上で PeopleNet の AIモデル を動作
 - PeopleNet
 - Docker
 - TensorRT Runtime
+
+## PeopleNetについて
+PeopleNet は、画像内の人を検出し、カテゴリラベルを返すAIモデルです。  
+PeopleNet は、バックボーン特徴抽出にResNet34を使用しており、混雑した場所でも正確に物体検出を行うことができます。
 
 ## 動作手順
 ### Dockerコンテナの起動
@@ -23,7 +27,7 @@ stream-start:
 	docker exec -it deepstream-peoplenet deepstream-app -c /app/src/deepstream_app_source1_peoplenet.txt
 ```
 ## 相互依存関係にあるマイクロサービス  
-本マイクロサービスを実行するために PeopleNet の AIモデルを最適化する手順は、[peoplenet-tao-toolkit](https://github.com/latonaio/peoplenet-tao-toolkit)を参照してください。  
+本マイクロサービスを実行するために PeopleNet の AIモデルを最適化する手順は、[peoplenet-on-tao-toolkit](https://github.com/latonaio/peoplenet-on-tao-toolkit)を参照してください。  
 
 
 ## engineファイルについて
