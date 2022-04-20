@@ -10,7 +10,7 @@ peoplenet-on-deepstream は、DeepStream 上で PeopleNet の AIモデル を動
 
 ## PeopleNetについて
 PeopleNet は、画像内の人を検出し、カテゴリラベルを返すAIモデルです。  
-PeopleNet は、バックボーン特徴抽出にResNet34を使用しており、混雑した場所でも正確に物体検出を行うことができます。
+PeopleNet は、特徴抽出にResNet34を使用しており、混雑した場所でも正確に物体検出を行うことができます。
 
 ## 動作手順
 ### Dockerコンテナの起動
