@@ -62,14 +62,14 @@ gpu-id=0
 net-scale-factor=0.0039215697906911373
 # model-file=../../models/Primary_Detector/resnet10.caffemodel
 # proto-file=../../models/Primary_Detector/resnet10.prototxt
-model-engine-file=saved.engine
+model-engine-file=peoplenet.engine
 labelfile-path=labels_peoplenet.txt
 int8-calib-file=/opt/nvidia/deepstream/deepstream-6.0/samples/models/Primary_Detector/cal_trt.bin
-batch-size=30
+batch-size=1
 process-mode=1
 model-color-format=0
 ## 0=FP32, 1=INT8, 2=FP16 mode
-network-mode=1
+network-mode=2
 num-detected-classes=4
 interval=0
 gie-unique-id=1

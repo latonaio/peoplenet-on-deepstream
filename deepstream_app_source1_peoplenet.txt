@@ -26,11 +26,11 @@ perf-measurement-interval-sec=5
 #gie-kitti-output-dir=streamscl
 
 [tiled-display]
-enable=0
-rows=2
-columns=2
-width=800
-height=448
+enable=1
+rows=1
+columns=1
+width=1280
+height=720
 gpu-id=0
 nvbuf-memory-type=0
 
@@ -109,7 +109,7 @@ nvbuf-memory-type=0
 [primary-gie]
 enable=1
 gpu-id=0
-model-engine-file=/app/src/saved.engine
+model-engine-file=/app/src/peoplenet.engine
 batch-size=4
 #Required by the app for OSD, not a plugin property
 bbox-border-color0=1;0;0;1
