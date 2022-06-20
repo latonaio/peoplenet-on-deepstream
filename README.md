@@ -31,4 +31,7 @@ stream-start:
 
 
 ## engineファイルについて
-engineファイルである peoplenet.engine は、[peoplenet-on-tao-toolkit](https://github.com/latonaio/peoplenet-on-tao-toolkit)と共通のファイルであり、当該レポジトリで作成した engineファイルを、本リポジトリで使用しています。  
+engineファイルである peoplenet.engine は、[peoplenet-on-tao-toolkit](https://github.com/latonaio/peoplenet-on-tao-toolkit)と共通のファイルであり、当該レポジトリで作成した engineファイルを、本リポジトリで使用しています。
+
+## 演算について
+本レポジトリでは、ニューラルネットワークのモデルにおいて、演算スループット効率を高めるため、FP16(半精度浮動小数点)を使用しています。    
